@@ -1,0 +1,18 @@
+{
+  "name": "sdaas",
+  "owner": {
+    "name": "Soumendra Daas",
+    "email": "soumendra.daas@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "sdlc-lite",
+      "source": {
+        "source": "github",
+        "repo": "Sdaas/sdlc-lite",
+        "ref": "v1.0.0-beta.1"
+      },
+      "description": "Interview-driven, test-first, human-in-the-loop workflow that turns a one-line feature request into a reviewed, tested, committed Python change — a conductor plus isolated, model/effort-pinned subagent gates with a guard hook enforcing isolation. Release channel: pinned to a git tag; the product repo's `release.sh` moves the pin. See ADR-13 in Sdaas/sdlc-lite."
+    }
+  ]
+}
