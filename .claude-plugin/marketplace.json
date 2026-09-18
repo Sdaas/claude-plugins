@@ -8,12 +8,13 @@
     {
       "name": "sdlc-lite",
       "source": {
-        "source": "github",
-        "repo": "Sdaas/sdlc-lite",
+        "source": "git-subdir",
+        "url": "https://github.com/Sdaas/sdlc-lite.git",
+        "path": "sdlc-lite-plugin",
         "ref": "v1.0.0-beta.1",
         "sha": "53a892ef1c5eea13fca58280b4e0ede407440465"
       },
-      "description": "Interview-driven, test-first, human-in-the-loop workflow that turns a one-line feature request into a reviewed, tested, committed Python change \u2014 a conductor plus isolated, model/effort-pinned subagent gates with a guard hook enforcing isolation. Release channel: pinned to a git tag; the product repo's `release.sh` moves the pin. See ADR-13 in Sdaas/sdlc-lite."
+      "description": "Interview-driven, test-first, human-in-the-loop workflow that turns a one-line feature request into a reviewed, tested, committed Python change — a conductor plus isolated, model/effort-pinned subagent gates with a guard hook enforcing isolation. Release channel: pinned to a git tag; the product repo's `release.sh` moves the pin. See ADR-13 in Sdaas/sdlc-lite."
     }
   ]
 }
